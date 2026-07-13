@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactsPage from "./pages/ContactsPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import ProductPage from "./pages/ProductPage.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contacts" element={<ContactsPage />} />
           <Route path="*" element={<NotFoundPage />} />
+          <Route path="/products/:id" element={<ProductPage />} />
         </Routes>
       </main>
       <Footer/>
