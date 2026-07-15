@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-stately/utils": "^3.12.1",
+    "@tailwindcss/typography": "^0.5.20",
     "@tailwindcss/vite": "^4.3.2",
     "@untitledui/icons": "^0.0.22",
+    "input-otp": "^1.4.2",
     "react": "^19.2.7",
     "react-aria-components": "^1.19.0",
     "react-dom": "^19.2.7",
